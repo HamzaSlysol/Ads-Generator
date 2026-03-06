@@ -1,0 +1,45 @@
+export const plansData = [
+  {
+    id: "starter",
+    name: "Starter",
+    price: "$10",
+    desc: "Try the platform at no cost/xx`x x`",
+    credits: "25",
+    features: [
+      "Project discovery & planning",
+      "Standard quality",
+      "No watermark",
+      "Slower generation speed",
+      "Email support",
+    ],
+  },
+  {
+    id: "pro",
+    name: "Pro",
+    price: "$29",
+    desc: "Creators and small.",
+    credits: "80",
+    features: [
+      "80 Creadits ",
+      "HD Quality ",
+      "No Watermark ",
+      "Video genration",
+      "Priority support",
+    ],
+    popular: true,
+  },
+  {
+    id: "ultra",
+    name: "Ultra",
+    price: "$99",
+    desc: "For brands ready to scale fast.",
+    credits: "300",
+    features: [
+      "300 Creadits",
+      "FHD Quality",
+      "NO watermark",
+      "Fast generation speed",
+      "Chat + Email support",
+    ],
+  },
+];
